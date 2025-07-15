@@ -1,0 +1,44 @@
+.footer {
+  background-color: #1a1a1a; /* dark background */
+  color: #ddd6cb; /* matching text color from your hero */
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-top: 1px solid #444;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.links a {
+  color: #ff9b05;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover,
+.links a:focus {
+  color: #f9572a;
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 0.9rem;
+  color: #aaa08c;
+  user-select: none;
+}
